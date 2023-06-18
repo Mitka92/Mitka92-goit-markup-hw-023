@@ -1,0 +1,236 @@
+:root{
+    --iris: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
+    --cornflover: #E7E9FC;
+    --white: #FFFFFF;
+    --main-font: 'Roboto', sans-serif;
+    }
+    body{
+        font-family: var(--main-font);
+        background-color: var(--white);
+        color: var(--slate);
+    }
+button{
+    cursor: pointer;
+}
+    .list {
+        list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+    /**
+      |============================
+      | Header
+      |============================
+    */
+    
+.header {
+    background-color: var(--white);
+}
+.nav {
+    font-family: var(--main-font);
+    color: var(--navy-blue);
+
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--navy-blue);
+}
+
+.header-logo-color {
+    color: var(--iris);
+}
+
+.header-link {
+    font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+.header-link:hover,
+.header-link:focus {
+    font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--ocean);
+}
+
+.address-header {
+    font-family: var(--main-font);
+    color: var(--navy-blue);
+    font-style: normal;
+
+}
+.address-header-link {
+    font-family: var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+.address-header-link:hover,
+.address-header-link:focus{
+        font-family: var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--ocean);
+}
+
+/**
+  |============================
+  | Hero section
+  |============================
+*/
+.hero-section {
+    background-color: var(--navy-blue);
+}
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: var(--white);
+text-align: center;
+}
+.button-hero {
+background-color: var(--iris);
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: var(--white);
+}
+.button-hero:hover,
+.button-hero:focus{
+background-color: var(--ocean);
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.04em;
+color: var(--white);
+}
+
+/**
+  |============================
+  | Sections
+  |============================
+*/
+.section-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+        text-transform: capitalize;
+        text-align: center;
+}
+
+.main-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+}
+
+.main-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+}
+
+.ot-bg {
+    background-color: var(--cloud);
+}
+.bg-card{
+    background-color: var(--white);
+}
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer{
+    background-color: var(--navy-blue);
+}
+.footer-text{
+    font-family: var(--main-font);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--cloud);
+        /**
+          |============================
+          | Logo
+          |============================
+        */
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+.logo-color-footer {
+    color: var(--cloud);
+}
+.logo-color-header {
+    color: var(--navy-blue);
+}
+
+/**
+  |============================
+  | Filters buttons
+  |============================
+*/
+
+.button-filter {
+     font-family: var(--main-font);
+     font-weight: 500;
+    background-color: var(--cloud);
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: var(--iris);
+}
+
+.button-filter:hover,
+.button-filter:focus{
+    font-family: var(--main-font);
+    font-weight: 500;
+    background-color: var(--ocean);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    }
+
+    
