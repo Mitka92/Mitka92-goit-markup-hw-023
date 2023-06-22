@@ -13,29 +13,66 @@
         background-color: var(--white);
         color: var(--slate);
     }
-button{
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+ul,
+ol, .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a, .link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    font-family: inherit;
     cursor: pointer;
 }
-    .list {
-        list-style: none;
-}
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
 
-.link {
-  text-decoration: none;
 }
-
     /**
       |============================
       | Header
       |============================
     */
-    
+    .header-container{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
 .header {
+    padding-bottom: 24px;
+    padding-top: 24px;
     background-color: var(--white);
 }
 .nav {
     font-family: var(--main-font);
     color: var(--navy-blue);
+    display:flex;
+    align-items: center;
 
 }
 .header-logo {
@@ -48,10 +85,17 @@ text-transform: uppercase;
 color: var(--navy-blue);
 }
 
+
 .header-logo-color {
     color: var(--iris);
 }
 
+.header-list{
+display: flex;
+align-items: center;
+gap: 40px;
+margin-left: 76px;
+}
 .header-link {
     font-family: var(--main-font);
 font-weight: 500;
@@ -75,8 +119,13 @@ color: var(--ocean);
     font-family: var(--main-font);
     color: var(--navy-blue);
     font-style: normal;
-
+  
 }
+  .address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
 .address-header-link {
     font-family: var(--main-font);
 font-weight: 400;
@@ -100,8 +149,16 @@ color: var(--ocean);
   | Hero section
   |============================
 */
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .hero-section {
     background-color: var(--navy-blue);
+    padding-top: 188px;
+    padding-bottom: 292px;
+
 }
 .hero-title {
 font-weight: 700;
@@ -110,6 +167,8 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 color: var(--white);
 text-align: center;
+width: 496px;
+margin-bottom: 48px;
 }
 .button-hero {
 background-color: var(--iris);
@@ -119,6 +178,9 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.04em;
 color: var(--white);
+padding: 16px 32px;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button-hero:hover,
 .button-hero:focus{
@@ -136,6 +198,36 @@ color: var(--white);
   | Sections
   |============================
 */
+.features-section{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.features-list{
+    display: flex;
+    justify-content: space-between;
+}
+.feauters-items{
+    width: 264px;
+}
+.wawd-section{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.wawd-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.feauters-container{}
+.wawd-container{}
+.ot-container{}
+
+.ot-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
 .section-title {
         font-weight: 700;
         font-size: 36px;
@@ -152,6 +244,7 @@ color: var(--white);
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--navy-blue);
+        margin-bottom: 8px;
 }
 
 .main-text {
@@ -162,11 +255,21 @@ color: var(--white);
         color: var(--slate);
 }
 
-.ot-bg {
+.ot-section {
     background-color: var(--cloud);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+  
 }
-.bg-card{
+.ot-section .main-text{
+    padding-bottom: 32px;
+}
+
+.card{
     background-color: var(--white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
 }
 
 /**
@@ -174,8 +277,11 @@ color: var(--white);
   | Footer
   |============================
 */
+.footer-container{}
 .footer{
     background-color: var(--navy-blue);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-text{
     font-family: var(--main-font);
@@ -184,6 +290,8 @@ color: var(--white);
         line-height: 24px;
         letter-spacing: 0.02em;
         color: var(--cloud);
+        width: 264px;
+        padding-top: 16px;
         /**
           |============================
           | Logo
