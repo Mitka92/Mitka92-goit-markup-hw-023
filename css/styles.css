@@ -409,6 +409,9 @@ display: flex;
     width: calc((100% - 2 * 24px) / 3);
     margin-bottom: 48px;
     margin-right: 24px;
+   /* border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;*/
 }
 
 .portfolio-item:nth-child(3n){
@@ -423,8 +426,7 @@ display: flex;
     padding-left: 16px;
     padding-bottom: 32px;
 }
-
-.portfolio-card-info{
+.portfolio-info{
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
