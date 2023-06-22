@@ -59,6 +59,7 @@ padding-right: 15px;
     margin: -1px;
     border: 0;
     padding: 0;
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -263,10 +264,12 @@ padding: 120px 0;
 
 .feauters-items {
     margin-right: 24px;
+    width: calc((100% - 72px) / 4);
     
 }
 .feauters-items:nth-child(4){
     margin-right: 0;
+
 }
 /**
   |============================
@@ -304,10 +307,6 @@ padding: 120px 0;
     padding-top: 120px;
     padding-bottom: 120px;
     text-align: center;
-  
-}
-.ot-section .main-text{
-    /*padding-bottom: 32px;*/
 }
 
 
@@ -390,9 +389,7 @@ padding: 120px 0;
   | Portfolio page
   |============================
 */
-.portfolio-container{
 
-}
 /**
   |============================
   | Portfolio section
